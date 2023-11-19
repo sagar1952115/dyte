@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: darkcyan;
+}
+.filters {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+label {
+  width: 100%;
+  margin: 5px;
+}
+input {
+  float: right;
+}
+
+.results {
+  background-color: black;
+  padding: 10px;
+  width: 60%;
+  margin: 20px auto;
+  text-align: left;
+  margin-bottom: 0;
+}
+.results h2 {
+  text-align: center;
+}
